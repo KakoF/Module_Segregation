@@ -78,3 +78,17 @@ var connectionString = "Server=localhost;Database=MinhaAppDb;Trusted_Connection=
 
         // Configura tudo com uma única chamada
         services.ConfigureAtendimentoModule(connectionString);
+
+
+
+
+
+dotnet build -c Release 
+dotnet pack -c Release  
+
+dotnet nuget push "bin/Release/Tributario.Imobiliario.Domain.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+dotnet nuget push "bin/Release/Tributario.Imobiliario.Application.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+dotnet nuget push "bin/Release/Tributario.Imobiliario.Infrastructure.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+
+
+https://www.nuget.org/account/Packages

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Tributario.Imobiliario.Application" Version="1.0.1" />
+    <PackageReference Include="Tributario.Imobiliario.Domain" Version="1.0.0" />
+    <PackageReference Include="Tributario.Imobiliario.Infrastructure" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

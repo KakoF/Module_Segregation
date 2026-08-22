@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Tributario.Imobiliario.Infrastructure</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Marcos</Authors>
+    <Description>Camada de infraestrutura do módulo Imobiliário</Description>
   </PropertyGroup>
 
   <ItemGroup>
