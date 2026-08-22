@@ -1,6 +1,5 @@
 <Solution>
   <Project Path="Application/Application.csproj" Id="4af59996-aa58-43bf-a0e3-0bcebad07de9" />
-  <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="ad2d1459-b71a-4cdf-be82-e12ee3e8b599" />
   <Project Path="Domain/Domain.csproj" Id="51c2ad4b-3d3b-4357-a537-12f9ae9a98e3" />
   <Project Path="infrastructure/infrastructure.csproj" Id="3812ed15-47d0-424d-bf4f-b15f261475da" />
 </Solution>
