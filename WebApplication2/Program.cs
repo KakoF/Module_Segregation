@@ -1,4 +1,6 @@
-using Application;
+
+using Tributario.Atendimento.Module.Application;
+using Tributario.Imobiliario.Module.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,7 @@ builder.Services.AddSwaggerGen();
 // Simulando a API passando a string de conexão
 var connectionString = "Server=localhost,1433;Database=MinhaAppDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;";
 builder.Services.ConfigureImobiliarioModule(connectionString);
-
+builder.Services.ConfigureAtendimentoModule(connectionString);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

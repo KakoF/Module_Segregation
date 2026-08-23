@@ -1,7 +1,7 @@
-﻿using Infrastructure;
+﻿using Tributario.Atendimento.Module.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application
+namespace Tributario.Atendimento.Module.Application
 {
 	public static class DependencyInjection
 	{

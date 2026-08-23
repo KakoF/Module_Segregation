@@ -91,4 +91,8 @@ dotnet nuget push "bin/Release/Tributario.Imobiliario.Application.1.0.0.nupkg" -
 dotnet nuget push "bin/Release/Tributario.Imobiliario.Infrastructure.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
 
 
-https://www.nuget.org/account/Packages
+dotnet nuget push "bin/Release/Tributario.Atendimento.Domain.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+dotnet nuget push "bin/Release/Tributario.Atendimento.Application.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+dotnet nuget push "bin/Release/Tributario.Atendimento.Infrastructure.1.0.0.nupkg" --api-key <api-key> --source https://api.nuget.org/v3/index.json
+
+https://www.nuget.org/account/Packages  

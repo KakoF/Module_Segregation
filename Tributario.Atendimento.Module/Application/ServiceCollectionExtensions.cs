@@ -1,7 +1,7 @@
 ﻿using Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application
+namespace Tributario.Atendimento.Module.Application
 {
 	public static class ServiceCollectionExtensions
 	{

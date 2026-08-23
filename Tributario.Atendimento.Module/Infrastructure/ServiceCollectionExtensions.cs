@@ -4,7 +4,7 @@ using Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure
+namespace Tributario.Atendimento.Module.Infrastructure
 {
 	public static class ServiceCollectionExtensions
 	{

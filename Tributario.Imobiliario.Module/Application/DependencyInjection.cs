@@ -1,7 +1,7 @@
-﻿using infrastructure;
+﻿using Tributario.Imobiliario.Module.infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application
+namespace Tributario.Imobiliario.Module.Application
 {
 	public static class DependencyInjection
 	{
