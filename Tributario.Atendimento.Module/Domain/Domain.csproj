@@ -4,6 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Tributario.Atendimento.Domain</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Marcos</Authors>
+    <Description>Camada de domain do módulo Atendimento</Description>
   </PropertyGroup>
 
 </Project>
